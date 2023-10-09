@@ -7,7 +7,6 @@ type Props = {
 };
 
 const Coin = (props: Props) => {
-  console.log(props);
   return (
     <div className='Coin'>
       <img src={props.coin === CoinSide.Head ? head : tail} alt={head} />;
