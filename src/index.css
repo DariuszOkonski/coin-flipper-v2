@@ -4,7 +4,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   background-color: #272727;
-  color: #fff;
+  color: #272727;
   width: 100vw;
   height: 100vh;
 
@@ -17,4 +17,47 @@ body {
   border: 1px solid #fff;
   padding: 40px;
   border-radius: 10px;
+  background-color: #fff;
+}
+
+.Button {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button button {
+  border: none;
+  background-color: #272727;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Button button:hover {
+  background-color: #414040;
+}
+
+.Coin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Results {
+  margin-top: 10px;
+  border: 1px solid #272727;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Results p {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.Results span {
+  margin-left: 20px;
 }
